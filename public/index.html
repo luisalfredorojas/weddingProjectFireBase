@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Valeria & Mateo — Celebración de Amor</title>
+    <meta
+      name="description"
+      content="Acompáñanos a celebrar la boda de Valeria y Mateo. Encuentra el itinerario, ubicación, código de vestimenta y confirma tu asistencia."
+    />
+    <link rel="icon" href="/assets/favicon.ico" sizes="any" />
+    <link rel="preconnect" href="https://firestore.googleapis.com" />
+    <link rel="preconnect" href="https://firebasestorage.googleapis.com" />
+    <link rel="preconnect" href="https://www.googleapis.com" />
+    <meta property="og:title" content="Boda de Valeria & Mateo" />
+    <meta
+      property="og:description"
+      content="Todo lo que necesitas para acompañarnos en nuestra boda."
+    />
+    <meta property="og:image" content="/assets/og-image.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example-wedding.web.app" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Boda de Valeria & Mateo" />
+    <meta
+      name="twitter:description"
+      content="Descubre detalles de nuestra boda y confirma tu asistencia."
+    />
+    <meta name="twitter:image" content="/assets/og-image.jpg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="theme-color" content="#d4a373" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Boda de Valeria y Mateo",
+        "url": "https://example-wedding.web.app",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://example-wedding.web.app/?s={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Boda de Valeria & Mateo",
+        "startDate": "2025-12-20T16:00:00-05:00",
+        "endDate": "2025-12-20T23:59:00-05:00",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "description": "Ceremonia y celebración de Valeria & Mateo.",
+        "location": {
+          "@type": "Place",
+          "name": "// TODO: reemplaza con el nombre del lugar",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "// TODO: dirección",
+            "addressLocality": "Ciudad de México",
+            "postalCode": "00000",
+            "addressCountry": "MX"
+          }
+        },
+        "image": ["https://example-wedding.web.app/assets/og-image.jpg"],
+        "performer": [
+          { "@type": "Person", "name": "Valeria" },
+          { "@type": "Person", "name": "Mateo" }
+        ],
+        "organizer": {
+          "@type": "Organization",
+          "name": "Familias // TODO",
+          "url": "https://example-wedding.web.app"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+    <header class="site-header" role="banner">
+      <div class="header-inner">
+        <p class="brand" data-i18n="brand">Valeria & Mateo</p>
+        <button class="lang-toggle" data-lang-toggle type="button" aria-label="Cambiar idioma">
+          ES
+        </button>
+        <nav class="site-nav" aria-label="Principal">
+          <ul>
+            <li><a href="#hero" data-i18n="nav.hero">Inicio</a></li>
+            <li><a href="#details" data-i18n="nav.details">Detalles</a></li>
+            <li><a href="#rsvp" data-i18n="nav.rsvp">Confirmación</a></li>
+            <li><a href="#thanks" data-i18n="nav.thanks">Gracias</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main" tabindex="-1">
+      <section id="hero" class="hero" aria-label="Galería de bienvenida">
+        <div class="carousel" data-carousel>
+          <button class="carousel__control carousel__control--prev" data-carousel-prev aria-label="Slide anterior">
+            <span aria-hidden="true">◀</span>
+          </button>
+          <ul class="carousel__track" data-carousel-track>
+            <li class="carousel__slide" data-type="image" data-src="/assets/hero-1.jpg" data-alt="Pareja sonriente en el atardecer">
+              <div class="carousel__lazy-placeholder" aria-hidden="true"></div>
+            </li>
+            <li class="carousel__slide" data-type="video" data-src="/assets/hero-video.mp4" data-alt="Video de la pareja caminando" data-caption="Video con subtítulos próximos">
+              <div class="carousel__lazy-placeholder" aria-hidden="true"></div>
+            </li>
+            <li class="carousel__slide" data-type="image" data-src="/assets/hero-2.jpg" data-alt="Decoración floral del evento">
+              <div class="carousel__lazy-placeholder" aria-hidden="true"></div>
+            </li>
+            <li class="carousel__slide" data-type="youtube" data-src="https://www.youtube.com/embed/dQw4w9WgXcQ" data-alt="Video sorpresa de familiares">
+              <div class="carousel__lazy-placeholder" aria-hidden="true"></div>
+            </li>
+          </ul>
+          <button class="carousel__control carousel__control--next" data-carousel-next aria-label="Slide siguiente">
+            <span aria-hidden="true">▶</span>
+          </button>
+          <div class="carousel__indicators" data-carousel-indicators role="tablist" aria-label="Indicadores de la galería"></div>
+        </div>
+      </section>
+
+      <section id="details" class="cta" aria-labelledby="cta-title">
+        <div class="section-header">
+          <h2 id="cta-title" data-i18n="cta.title">Detalles importantes</h2>
+          <p data-i18n="cta.subtitle">Encuentra la información clave para acompañarnos.</p>
+        </div>
+        <div class="cta__grid">
+          <button class="cta__button" data-modal-trigger="itinerary" data-i18n="cta.itinerary">
+            Itinerario
+          </button>
+          <button class="cta__button" data-modal-trigger="location" data-i18n="cta.location">
+            Ubicación
+          </button>
+          <button class="cta__button" data-modal-trigger="dress" data-i18n="cta.dress">
+            Código de vestimenta
+          </button>
+          <button class="cta__button" data-modal-trigger="registry" data-i18n="cta.registry">
+            Mesa de regalos
+          </button>
+        </div>
+      </section>
+
+      <section id="rsvp" class="rsvp" aria-labelledby="rsvp-title">
+        <div class="section-header">
+          <h2 id="rsvp-title" data-i18n="rsvp.title">Confirmación de asistencia</h2>
+          <p data-i18n="rsvp.subtitle">Por favor completa el siguiente formulario a más tardar el 20 de noviembre.</p>
+        </div>
+        <form class="rsvp__form" data-rsvp-form novalidate>
+          <div class="form-field">
+            <label for="invitee" data-i18n="rsvp.inviteeLabel">Nombre en la invitación</label>
+            <select id="invitee" name="invitee" required data-rsvp-invitee>
+              <option value="" data-i18n="rsvp.inviteePlaceholder">Selecciona tu nombre</option>
+            </select>
+            <p class="form-hint" data-rsvp-plusone data-i18n="rsvp.plusOne">Con acompañante: —</p>
+          </div>
+          <div class="form-field">
+            <label for="allergies" data-i18n="rsvp.allergiesLabel">¿Alguna alergia o restricción alimentaria?</label>
+            <textarea id="allergies" name="allergies" maxlength="200" rows="3" data-rsvp-allergies aria-describedby="allergies-counter"></textarea>
+            <p id="allergies-counter" class="form-counter" data-i18n="rsvp.counter" data-count="0">0 / 200</p>
+          </div>
+          <fieldset class="form-field" data-rsvp-attending>
+            <legend data-i18n="rsvp.attendingLabel">¿Podrás asistir?</legend>
+            <label><input type="radio" name="attending" value="yes" required /> <span data-i18n="rsvp.attendingYes">Sí</span></label>
+            <label><input type="radio" name="attending" value="no" required /> <span data-i18n="rsvp.attendingNo">No</span></label>
+          </fieldset>
+          <div class="form-field">
+            <button type="submit" class="button" data-i18n="rsvp.submit">Enviar confirmación</button>
+          </div>
+          <p class="form-notice" data-i18n="rsvp.notice">
+            Tus datos se utilizan únicamente para coordinar la logística del evento. Si necesitas ayuda, contáctanos.
+          </p>
+          <div class="form-alert" role="status" aria-live="polite" data-rsvp-alert></div>
+        </form>
+      </section>
+
+      <section id="thanks" class="thanks" aria-labelledby="thanks-title">
+        <div class="thanks__art" aria-hidden="true">
+          <svg viewBox="0 0 400 200" role="img" aria-labelledby="thanks-title">
+            <defs>
+              <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="var(--color-accent)" />
+                <stop offset="100%" stop-color="var(--color-accent-muted)" />
+              </linearGradient>
+            </defs>
+            <text x="50%" y="50%" text-anchor="middle" fill="url(#grad)" class="thanks__text">
+              ¡Gracias!
+            </text>
+          </svg>
+        </div>
+        <div class="thanks__content">
+          <h2 id="thanks-title" data-i18n="thanks.title">¡Gracias por compartir este día!</h2>
+          <p data-i18n="thanks.message">
+            Valeria & Mateo — 20 de diciembre de 2025. Tu presencia hace nuestro día aún más especial.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <p data-i18n="footer.note">Hecho con mucho amor. © 2025.</p>
+    </footer>
+
+    <div class="modal" data-modal-template hidden>
+      <div class="modal__overlay" data-modal-overlay></div>
+      <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-description">
+        <button type="button" class="modal__close" data-modal-close aria-label="Cerrar">×</button>
+        <div class="modal__content" data-modal-content></div>
+      </div>
+    </div>
+
+    <template id="modal-itinerary">
+      <article>
+        <header>
+          <h3 id="modal-title" data-i18n="modal.itinerary.title">Itinerario del día</h3>
+          <p id="modal-description" data-i18n="modal.itinerary.desc">Agenda tentativa.</p>
+        </header>
+        <ol class="timeline">
+          <li><time datetime="2025-12-20T16:00" data-i18n="modal.itinerary.item1.time">16:00</time> <span data-i18n="modal.itinerary.item1.text">Ceremonia civil</span></li>
+          <li><time datetime="2025-12-20T17:30" data-i18n="modal.itinerary.item2.time">17:30</time> <span data-i18n="modal.itinerary.item2.text">Recepción y coctel</span></li>
+          <li><time datetime="2025-12-20T19:00" data-i18n="modal.itinerary.item3.time">19:00</time> <span data-i18n="modal.itinerary.item3.text">Cena y brindis</span></li>
+          <li><time datetime="2025-12-20T21:00" data-i18n="modal.itinerary.item4.time">21:00</time> <span data-i18n="modal.itinerary.item4.text">Baile y fiesta</span></li>
+        </ol>
+      </article>
+    </template>
+
+    <template id="modal-location">
+      <article>
+        <header>
+          <h3 id="modal-title" data-i18n="modal.location.title">Ubicación</h3>
+          <p id="modal-description" data-i18n="modal.location.desc">Dirección y mapa del lugar.</p>
+        </header>
+        <address class="address">
+          <p data-i18n="modal.location.address">// TODO: Reemplaza con la dirección completa.</p>
+        </address>
+        <div class="map-wrapper">
+          <iframe
+            title="Mapa del lugar"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.093282099326!2d-99.1331782846805!3d19.43260788688666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDI1JzU3LjQiTiA5OcKwMDcnNTQuMiJX!5e0!3m2!1ses-419!2smx!4v1615133994379!5m2!1ses-419!2smx"
+            width="100%"
+            height="300"
+            style="border:0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </article>
+    </template>
+
+    <template id="modal-dress">
+      <article>
+        <header>
+          <h3 id="modal-title" data-i18n="modal.dress.title">Código de vestimenta</h3>
+          <p id="modal-description" data-i18n="modal.dress.desc">Sugerencias para el atuendo.</p>
+        </header>
+        <ul>
+          <li data-i18n="modal.dress.item1">Formal elegante: trajes oscuros, vestidos largos o midi.</li>
+          <li data-i18n="modal.dress.item2">Zapatos cómodos para bailar.</li>
+          <li data-i18n="modal.dress.item3">Los colores claros son bienvenidos, evita blanco total.</li>
+        </ul>
+      </article>
+    </template>
+
+    <template id="modal-registry">
+      <article>
+        <header>
+          <h3 id="modal-title" data-i18n="modal.registry.title">Mesa de regalos</h3>
+          <p id="modal-description" data-i18n="modal.registry.desc">Opciones para celebrar con nosotros.</p>
+        </header>
+        <ul>
+          <li><a href="https://www.amazon.com" target="_blank" rel="noopener" data-i18n="modal.registry.item1">Lista Amazon</a></li>
+          <li><a href="https://www.etsy.com" target="_blank" rel="noopener" data-i18n="modal.registry.item2">Detalles hechos a mano</a></li>
+          <li><a href="mailto://TODO-correo" data-i18n="modal.registry.item3">Transferencia bancaria</a></li>
+        </ul>
+      </article>
+    </template>
+
+    <script type="module" src="/app.js" defer></script>
+  </body>
+</html>
