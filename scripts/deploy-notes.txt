@@ -1,0 +1,5 @@
+Deployment reminders:
+- Run `firebase deploy --only firestore:rules,storage:rules` after editing security rules.
+- Use `firebase deploy --only hosting` for static changes; append `--message "describe release"` for traceability.
+- For Cloud Functions updates, deploy with `firebase deploy --only functions`.
+- Verify Google Sheets endpoint availability before announcing RSVP form.
