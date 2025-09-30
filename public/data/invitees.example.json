@@ -1,0 +1,7 @@
+{
+  "invitees": [
+    { "name": "Ana López", "plusOne": true },
+    { "name": "Carlos Pérez", "plusOne": false },
+    { "name": "María García", "plusOne": true }
+  ]
+}
